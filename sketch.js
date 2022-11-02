@@ -35,11 +35,6 @@ function setup()
   engine = Engine.create();
   world = engine.world;
 
-  //btn 1
-  button = createImg('cut_btn.png');
-  button.position(200,30);
-  button.size(50,50);
-  button.mouseClicked(drop);
 
   
   rope = new Rope(8,{x:220,y:30});
